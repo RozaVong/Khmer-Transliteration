@@ -1,0 +1,21 @@
+# Core
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-dotenv==1.0.0
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# Database
+psycopg2-binary==2.9.9
+SQLAlchemy==2.0.25
+
+# Machine Learning - Use Keras 3.x (standalone) for .keras model format
+tensorflow==2.16.1
+keras>=3.0.0
+numpy>=1.24.3
+
+# Others
+python-multipart==0.0.6
+aiofiles==23.2.1
+httpx==0.25.1
+gunicorn==21.2.0
