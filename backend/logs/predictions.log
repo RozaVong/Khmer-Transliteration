@@ -1,0 +1,12 @@
+# Khmer Transliteration - Predictions Log
+# Started: 2026-01-21T04:39:23.670789
+# Format: JSON lines
+
+{"timestamp": "2026-01-21T13:54:46.166145", "type": "prediction", "data": {"prediction_id": "c01a1dcb-0471-49a7-9a17-6db893d9bffd", "input": "hello", "output": "ហិល្ហល", "confidence": 80.32, "user_ip": "172.18.0.1"}}
+{"timestamp": "2026-01-21T13:57:22.679254", "type": "prediction", "data": {"prediction_id": "9d38c4a2-d57d-4c9a-9db0-13bd59cb4a08", "input": "nh", "output": "ខ្ញុំ", "confidence": 80.85, "user_ip": "172.18.0.1"}}
+{"timestamp": "2026-01-21T13:58:00.222684", "type": "prediction", "data": {"prediction_id": "5982d578-9e70-452d-88fc-9282e105d388", "input": "nh", "output": "ខ្ញុំ", "confidence": 80.85, "user_ip": "172.18.0.1"}}
+{"timestamp": "2026-01-21T13:58:39.204851", "type": "prediction", "data": {"prediction_id": "c262ffaf-a248-44b6-9488-100f1b6b0f14", "input": "nh", "output": "ខ្ញុំ", "confidence": 80.85, "user_ip": "172.18.0.1"}}
+{"timestamp": "2026-01-21T13:58:41.595451", "type": "prediction", "data": {"prediction_id": "249d14c0-4c33-4a7b-9983-d8feef1b6b75", "input": "nh", "output": "ខ្ញុំ", "confidence": 80.85, "user_ip": "172.18.0.1"}}
+{"timestamp": "2026-01-21T13:58:43.060960", "type": "prediction", "data": {"prediction_id": "31c37f84-b6f1-4b50-a5af-bf0b268c5d79", "input": "tv", "output": "ទៅ", "confidence": 80.58, "user_ip": "172.18.0.1"}}
+{"timestamp": "2026-01-21T13:58:44.991896", "type": "prediction", "data": {"prediction_id": "b690d9c2-2b6d-4c56-90e1-9aa9f93533bb", "input": "sala", "output": "សាលា", "confidence": 76.3, "user_ip": "172.18.0.1"}}
+{"timestamp": "2026-01-21T13:58:54.627954", "type": "feedback", "data": {"prediction_id": "b690d9c2-2b6d-4c56-90e1-9aa9f93533bb", "rating": 3, "comment": "is not or bad", "timestamp": "2026-01-21T13:58:54.627937"}}
