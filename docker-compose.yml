@@ -1,0 +1,84 @@
+cat > docker-compose.yml << 'EOF'
+version: '3.8'
+
+services:
+  # PostgreSQL Database
+  postgres:
+    image: postgres:15-alpine
+    container_name: khmer-db
+    environment:
+      POSTGRES_DB: neondb
+      POSTGRES_USER: neondb_owner
+      POSTGRES_PASSWORD: npg_qpv8y2hsGTFb
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - khmer-network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U neondb_owner"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # Backend API
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    container_name: khmer-backend
+    ports:
+      - "8001:8001"
+    environment:
+      DATABASE_URL: "postgresql://neondb_owner:npg_qpv8y2hsGTFb@postgres:5432/neondb"
+      DEBUG: "True"
+      LOG_LEVEL: "INFO"
+    volumes:
+      - ./backend/logs:/app/backend/logs
+      - ./model:/app/model
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - khmer-network
+    restart: unless-stopped
+
+  # Frontend
+  frontend:
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
+    container_name: khmer-frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+    networks:
+      - khmer-network
+    restart: unless-stopped
+
+  # Nginx Reverse Proxy
+  nginx:
+    image: nginx:alpine
+    container_name: khmer-nginx
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf
+    depends_on:
+      - backend
+      - frontend
+    networks:
+      - khmer-network
+    restart: unless-stopped
+
+networks:
+  khmer-network:
+    driver: bridge
+
+volumes:
+  postgres_data:
+EOF
