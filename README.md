@@ -303,3 +303,8 @@ We are a diverse team of passionate developers working on this innovative projec
 | 🧪 | QA Engineer |Veng MengSoklin | [mengsoklin](https://github.com/mengsoklin) | Testing, quality assurance, automation |
 | 📚 | Documentation Specialist |Ton chamnan | [Tnannz](https://github.com/Tnannz) | Technical writing, project documentation, user guides |
 
+### 📊 Data Source
+Open-source Khmer transliteration dataset  
+🔗 https://github.com/Chhunneng/khmer-text-transliteration  
+Used for research & educational purposes 📚🤖
+
