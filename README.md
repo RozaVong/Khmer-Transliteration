@@ -54,7 +54,7 @@
 
 ## 🤖 Model Details
 
-Our transliteration model is a sequence-to-sequence (Seq2Seq) neural network designed specifically for English-to-Khmer character-level transliteration. The model uses an encoder-decoder architecture with attention mechanism to handle the complex mapping between English phonetics and Khmer script.
+Our transliteration model is a sequence-to-sequence (Seq2Seq) neural network designed specifically for English-to-Khmer character-level transliteration. The model uses an encoder-decoder architecture to handle the complex mapping between English phonetics and Khmer script.
 
 ### How the Model Works
 
