@@ -296,10 +296,10 @@ We are a diverse team of passionate developers working on this innovative projec
 
 | Avatar | Role | Name | GitHub | Specialty |
 |--------|------|------|--------|-----------|
-| 👨‍💻 | Backend Developer | Sreypich | [Sreypich999](https://github.com/sreypich999) | API development, database management, security |
-| 🎨 | Frontend Developer | Roza | [RozaVong](https://github.com/RozaVong) | UI/UX design, JavaScript development, responsive design |
-| 🤖 | ML Engineer | Vanna | [vannajuuka](https://github.com/vannajuuka) | Model training, data preprocessing, algorithm optimization |
-| 🐳 | DevOps Engineer | Munineath | [MunineathSek](https://github.com/MunineathSek) | Docker, CI/CD, infrastructure, monitoring |
-| 🧪 | QA Engineer | Meng Soklin | [mengsoklin](https://github.com/mengsoklin) | Testing, quality assurance, automation |
-| 📚 | Documentation Specialist | Tnannz | [Tnannz](https://github.com/Tnannz) | Technical writing, project documentation, user guides |
+| 👨‍💻 | Backend Developer | Vey Sreypich | [Sreypich999](https://github.com/sreypich999) | API development, database management, security |
+| 🎨 | Frontend Developer |Vang Roza | [RozaVong](https://github.com/RozaVong) | UI/UX design, JavaScript development, responsive design |
+| 🤖 | ML Engineer |Vanna Juuka | [vannajuuka](https://github.com/vannajuuka) | Model training, data preprocessing, algorithm optimization |
+| 🐳 | DevOps Engineer | Sek Somunineath | [MunineathSek](https://github.com/MunineathSek) | Docker, CI/CD, infrastructure, monitoring |
+| 🧪 | QA Engineer |Veng MengSoklin | [mengsoklin](https://github.com/mengsoklin) | Testing, quality assurance, automation |
+| 📚 | Documentation Specialist |Ton chamnan | [Tnannz](https://github.com/Tnannz) | Technical writing, project documentation, user guides |
 
