@@ -35,10 +35,9 @@
 
 ## 📸 Screenshots
 
-### Deployment Interface 1
+### Deployment Interface 
 ![Deployment Screenshot 1](https://github.com/RozaVong/Khmer-Transliteration/blob/main/photo_2026-01-23_15-57-12.jpg)
 
-### Deployment Interface 2
 ![Deployment Screenshot 2](https://github.com/RozaVong/Khmer-Transliteration/blob/main/photo_2026-01-23_15-57-21.jpg)
 
 *Experience the seamless transliteration process through our intuitive web interface.*
@@ -99,10 +98,9 @@ Our transliteration model is a sequence-to-sequence (Seq2Seq) neural network des
 | Decoder Layers | 2 | LSTM layers with attention |
 | Units per Layer | 512 | Hidden units in LSTM cells |
 | Embedding Dimension | 256 | Character embedding size |
-| Vocabulary Size (English) | ~5000 | Unique English character combinations |
-| Vocabulary Size (Khmer) | ~8000 | Unique Khmer character combinations |
+| Vocabulary Size (English) | 28 | Unique English character combinations |
+| Vocabulary Size (Khmer) | 81 | Unique Khmer character combinations |
 | Max Sequence Length | 50 | Maximum input/output character length |
-| Attention Type | Bahdanau | Additive attention mechanism |
 | Dropout Rate | 0.2 | Applied to LSTM layers for regularization |
 
 ### Model Files Structure
