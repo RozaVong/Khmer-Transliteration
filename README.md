@@ -65,7 +65,6 @@ Our transliteration model is a sequence-to-sequence (Seq2Seq) neural network des
 
 ### Model Architecture
 
-- **Type**: Sequence-to-Sequence with Bahdanau Attention
 - **Framework**: TensorFlow/Keras
 - **Input**: English text (character-level tokenization)
 - **Output**: Khmer script (character-level tokenization)
@@ -81,8 +80,6 @@ Our transliteration model is a sequence-to-sequence (Seq2Seq) neural network des
 - **Purpose**: Creates rich representations of English input sequences
 
 #### Decoder
-- **LSTM with Attention**: Generates output sequence step-by-step
-- **Attention Layer**: Computes relevance scores between decoder state and encoder outputs
 - **Dense Output Layer**: Predicts next Khmer character probabilities
 
 #### Tokenizers
@@ -95,7 +92,7 @@ Our transliteration model is a sequence-to-sequence (Seq2Seq) neural network des
 | Parameter | Value | Description |
 |-----------|-------|-------------|
 | Encoder Layers | 2 | LSTM layers |
-| Decoder Layers | 2 | LSTM layers with attention |
+| Decoder Layers | 2 | LSTM layers |
 | Units per Layer | 512 | Hidden units in LSTM cells |
 | Embedding Dimension | 256 | Character embedding size |
 | Vocabulary Size (English) | 28 | Unique English character combinations |
