@@ -292,16 +292,17 @@ python backend/database/migrations.py
 
 ## 👥 Team 4
 
-We are a diverse team of passionate developers working on this innovative project!
+We are a diverse team of passionate developers working on this innovative project!  
 
 | Avatar | Role | Name | GitHub | Specialty |
 |--------|------|------|--------|-----------|
-| 👨‍💻 | Backend Developer | Vey Sreypich | [Sreypich999](https://github.com/sreypich999) | API development, database management, security |
-| 🎨 | Frontend Developer |Vang Roza | [RozaVong](https://github.com/RozaVong) | UI/UX design, JavaScript development, responsive design |
-| 🤖 | ML Engineer |Vanna Juuka | [vannajuuka](https://github.com/vannajuuka) | Model training, data preprocessing, algorithm optimization |
-| 🐳 | DevOps Engineer | Sek Somunineath | [MunineathSek](https://github.com/MunineathSek) | Docker, CI/CD, infrastructure, monitoring |
-| 🧪 | QA Engineer |Veng MengSoklin | [mengsoklin](https://github.com/mengsoklin) | Testing, quality assurance, automation |
-| 📚 | Documentation Specialist |Ton chamnan | [Tnannz](https://github.com/Tnannz) | Technical writing, project documentation, user guides |
+| <img src="https://github.com/sreypich999.png" width="48"/> | Backend Developer | Vey Sreypich | [Sreypich999](https://github.com/sreypich999) | API development, database management, security |
+| <img src="https://github.com/RozaVong.png" width="48"/> | Frontend Developer | Vang Roza | [RozaVong](https://github.com/RozaVong) | UI/UX design, JavaScript development, responsive design |
+| <img src="https://github.com/vannajuuka.png" width="48"/> | ML Engineer | Vanna Juuka | [vannajuuka](https://github.com/vannajuuka) | Model training, data preprocessing, algorithm optimization |
+| <img src="https://github.com/MunineathSek.png" width="48"/> | DevOps Engineer | Sek Somunineath | [MunineathSek](https://github.com/MunineathSek) | Docker, CI/CD, infrastructure, monitoring |
+| <img src="https://github.com/mengsoklin.png" width="48"/> | QA Engineer | Veng MengSoklin | [mengsoklin](https://github.com/mengsoklin) | Testing, quality assurance, automation |
+| <img src="https://github.com/Tnannz.png" width="48"/> | Documentation Specialist | Ton Chamnan | [Tnannz](https://github.com/Tnannz) | Technical writing, project documentation, user guides |
+
 
 ### 📊 Data Source
 Open-source Khmer transliteration dataset  
