@@ -301,7 +301,7 @@ We are a diverse team of passionate developers working on this innovative projec
 | <img src="https://github.com/vannajuuka.png" width="48"/> | ML Engineer | Vanna Juuka | [vannajuuka](https://github.com/vannajuuka) | Model training, data preprocessing, algorithm optimization |
 | <img src="https://github.com/MunineathSek.png" width="48"/> | DevOps Engineer | Sek Somunineath | [MunineathSek](https://github.com/MunineathSek) | Docker, CI/CD, infrastructure, monitoring |
 | <img src="https://github.com/mengsoklin.png" width="48"/> | QA Engineer | Veng MengSoklin | [mengsoklin](https://github.com/mengsoklin) | Testing, quality assurance, automation |
-| <img src="https://github.com/Tnannz.png" width="48"/> | Documentation Specialist | Ton Chamnan | [Tnannz](https://github.com/Tnannz) | Technical writing, project documentation, user guides |
+|  <img src="https://github.com/Ton-chamnan.png" width="48"/> | Documentation Specialist | Ton Chamnan | [Ton-chamnan](https://github.com/Ton-chamnan) | Technical writing, project documentation, user guides |
 
 
 ### 📊 Data Source
